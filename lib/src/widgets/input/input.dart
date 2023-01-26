@@ -219,18 +219,18 @@ class _InputState extends State<Input> {
                     ),
                   ),
                 ),
-                ConstrainedBox(
-                  constraints: BoxConstraints(
-                    minHeight: buttonPadding.bottom + buttonPadding.top + 24,
-                  ),
-                  child: const Padding(
-                    padding: EdgeInsets.fromLTRB(0, 0, 12, 0),
-                    child: Icon(
-                      Icons.mic,
-                      color: Colors.white,
-                    ),
-                  ),
-                ),
+                // ConstrainedBox(
+                //   constraints: BoxConstraints(
+                //     minHeight: buttonPadding.bottom + buttonPadding.top + 24,
+                //   ),
+                //   child: const Padding(
+                //     padding: EdgeInsets.fromLTRB(0, 0, 12, 0),
+                //     child: Icon(
+                //       Icons.mic,
+                //       color: Colors.white,
+                //     ),
+                //   ),
+                // ),
                 ConstrainedBox(
                   constraints: BoxConstraints(
                     minHeight: buttonPadding.bottom + buttonPadding.top + 24,
